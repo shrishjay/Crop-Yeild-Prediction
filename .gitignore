@@ -1,3 +1,13 @@
-data/
-src/model.pkl
-.venv/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+model/model.pkl
+ML_pipeline/data/
+ML_pipeline/src/encoder
