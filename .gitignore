@@ -7,7 +7,7 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-model/model.pkl
-ML_pipeline/data/
-ML_pipeline/src/encoder
+backend/.venv
+frontend/.venv
+backend/model/model.pkl
+frontend/ML_pipeline/data/

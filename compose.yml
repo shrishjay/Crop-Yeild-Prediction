@@ -1,0 +1,11 @@
+services:
+  frontend:
+    image: shrishjay/crop_yield_prediction_frontend
+    ports:
+      - "6001:8501"
+    depends_on:
+      - backend
+  backend:
+    image: "shrishjay/crop_yield_prediction_backend"
+    ports:
+      - "6002:8000"
